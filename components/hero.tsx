@@ -29,9 +29,9 @@ export default function Hero() {
 
           {/* Section header */}
           <div className="text-center pb-12 md:pb-16">
-            <h1 className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out">Make your website <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400">wonderful</span></h1>
+            <h1 className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out">Transform Photos into <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400">Masterpieces</span></h1>
             <div className="max-w-3xl mx-auto">
-              <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">Our landing page template works on all devices, so you only have to set it up once, and get beautiful results forever.</p>
+              <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">Every photograph holds a story, waiting to be told in the most visually captivating way. Our unique service takes your cherished memories and transforms them into stunning artworks, styled in the manner of great art movements such as Van Gogh's expressive strokes, the detailed dots of Pointillism, or the vibrant visuals of Anime and Manga. With the power of AI-driven style transfer and the quality of print-on-demand canvas, we bring personalized art into your home. Whether it's a portrait, a landscape, or a candid moment, ArtifyCanvas turns your images into timeless pieces of art that speak volumes.</p>
               <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center" data-aos="zoom-y-out" data-aos-delay="300">
                 <div>
                   <a className="btn text-white bg-blue-600 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0" href="#0">Start free trial</a>
