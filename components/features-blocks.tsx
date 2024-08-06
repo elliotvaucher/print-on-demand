@@ -11,8 +11,8 @@ export default function FeaturesBlocks() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 mb-4">How it works</h2>
-            <p className="text-xl text-gray-600">ArtifyCanvas leverages advanced AI technology to apply artistic styles to your photos, which are then printed on high-quality canvas. This seamless integration of technology with traditional artistry ensures that each canvas is a personalized masterpiece.</p>
+            <h2 className="h2 mb-4">Notre approche</h2>
+            <p className="text-xl text-gray-600">Vous vous situez peut-être à un carrefour dans votre carrière? Vous vous sentez insatisfait ou incertain sur les prochaines étapes? De nombreuses personnes luttent pour trouver leur véritable vocation et avoir un impact significatif dans le monde. Nous sommes là pour vous guider dans ce voyage de découverte de soi et d'action axée sur le but.</p>
           </div>
 
           {/* Items */}
@@ -31,8 +31,8 @@ export default function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Headless CMS</h4>
-              <p className="text-gray-600 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Évaluation personnelle</h4>
+              <p className="text-gray-600 text-center">Identifiez vos forces, valeurs et aspirations à travers une réflexion guidée.</p>
             </div>
 
             {/* 2nd item */}
@@ -47,8 +47,8 @@ export default function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Headless CMS</h4>
-              <p className="text-gray-600 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Développement de stratégie</h4>
+              <p className="text-gray-600 text-center">Créez un plan d'action sur mesure pour atteindre vos objectifs personnels et professionnels.</p>
             </div>
 
             {/* 3rd item */}
@@ -64,8 +64,8 @@ export default function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Headless CMS</h4>
-              <p className="text-gray-600 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Support continu</h4>
+              <p className="text-gray-600 text-center">Recevez des conseils continus et des ressources pour concrétiser votre vision.</p>
             </div>
 
             {/* 4th item */}
@@ -81,7 +81,7 @@ export default function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Headless CMS</h4>
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Ateliers en groupe</h4>
               <p className="text-gray-600 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
 
@@ -97,7 +97,7 @@ export default function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Headless CMS</h4>
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Création d'un réseau</h4>
               <p className="text-gray-600 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
 
