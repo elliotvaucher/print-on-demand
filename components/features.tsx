@@ -35,7 +35,7 @@ export default function Features() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <h1 className="h2 mb-4">Le problème</h1>
-            <p className="text-xl text-gray-600">Vous vous situez à un carrefour dans votre vie? Vous vous sentez insatisfait ou incertain sur les prochaines étapes? De nombreuses personnes luttent pour trouver leur véritable vocation et avoir un impact significatif dans le monde. Nous sommes là pour vous guider dans ce voyage de découverte de soi et d'action axée sur le but.</p>
+            <p className="text-xl text-gray-600">Vous vous situez à un carrefour dans votre vie? Vous vous sentez insatisfait ou incertain sur les prochaines étapes? De nombreuses personnes luttent pour trouver leur vocation et avoir un impact significatif dans le monde. Nous sommes là pour vous guider dans ce voyage de découverte de soi et d'action axée sur le but.</p>
           </div>
 
           {/* Section content */}

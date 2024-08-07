@@ -12,7 +12,7 @@ export default function FeaturesBlocks() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h2 className="h2 mb-4">Notre approche</h2>
-            <p className="text-xl text-gray-600">Vous vous situez peut-être à un carrefour dans votre carrière? Vous vous sentez insatisfait ou incertain sur les prochaines étapes? De nombreuses personnes luttent pour trouver leur véritable vocation et avoir un impact significatif dans le monde. Nous sommes là pour vous guider dans ce voyage de découverte de soi et d'action axée sur le but.</p>
+            <p className="text-xl text-gray-600">Vous vous situez peut-être à un carrefour dans votre carrière? Vous vous sentez insatisfait ou incertain sur les prochaines étapes? De nombreuses personnes luttent pour trouver leur vocation et avoir un impact significatif dans le monde. Nous sommes là pour vous guider dans ce voyage de découverte de soi et d'action axée sur le but.</p>
           </div>
 
           {/* Items */}
