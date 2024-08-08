@@ -57,7 +57,7 @@ const PricingComponentClient: React.FC = () => {
     <div className="bg-white py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl sm:text-center">
-          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Nos tarfis</h2>
+          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Nos tarifs</h2>
           <p className="mt-6 text-lg leading-8 text-gray-600">Sélectionnez l'offre qui vous convient le mieux</p>
         </div>
         <div className="mt-16 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
@@ -96,8 +96,8 @@ const PricingComponentClient: React.FC = () => {
             </ul>
           </div>
           <div className="mt-8 p-8 sm:p-10 bg-gray-50 rounded-b-3xl">
-            <a href="#" className="block w-full rounded-md bg-indigo-600 px-3 py-2 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
-              Get started with {selectedPlan}
+            <a href="https://calendly.com/ritsl/coaching-developpement-personnel" className="block w-full rounded-md bg-indigo-600 px-3 py-2 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
+              Réservez {selectedPlan}
             </a>
             <p className="mt-6 text-xs leading-5 text-gray-600 text-center">
               Pricing details are for illustrative purposes only. Please contact sales for actual pricing.
