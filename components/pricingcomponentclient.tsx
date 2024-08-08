@@ -79,7 +79,7 @@ const PricingComponentClient: React.FC = () => {
         </div>
         <div ref={detailsRef} className="mt-16 mx-auto max-w-2xl rounded-3xl ring-1 ring-gray-200 sm:mt-20">
           <div className="p-8 sm:p-10">
-            <h3 className="text-2xl font-bold tracking-tight text-gray-900">{selectedPlan} détail</h3>
+            <h3 className="text-2xl font-bold tracking-tight text-gray-900">{selectedPlan}</h3>
             <p className="mt-6 text-base leading-7 text-gray-600">
               Plan pricing starts at {selectedPlan === 'Enterprise' ? 'a custom rate' : `CHF ${plans.find(p => p.name === selectedPlan)?.price}`}. 
               Select your audience size to calculate your price. The monthly email send limit for {selectedPlan} plans 
