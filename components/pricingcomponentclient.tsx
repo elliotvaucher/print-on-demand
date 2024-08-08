@@ -1,11 +1,6 @@
 "use client";
 
-import React, { useState } from 'react';
-
-interface PlanFeature {
-  name: string;
-  included: boolean;
-}
+import React, { useState, useRef, useEffect } from 'react';
 
 interface Plan {
   name: string;
@@ -45,6 +40,7 @@ const PricingPlan: React.FC<PricingPlanProps> = ({ name, price, features, isSele
 
 const PricingComponentClient: React.FC = () => {
   const [selectedPlan, setSelectedPlan] = useState<string>('Standard');
+  const detailsRef = useRef<HTMLDivElement>(null);
 
   const plans: Plan[] = [
     { name: 'Séance Diana', price: 222, features: ['500 contacts', '5,000 emails/month', 'Basic analytics'] },
@@ -53,12 +49,21 @@ const PricingComponentClient: React.FC = () => {
     { name: 'Groupe', price: 108, features: ['Unlimited contacts', 'Unlimited emails', 'Custom solutions', 'Dedicated account manager'] },
   ];
 
+  const handlePlanSelect = (planName: string) => {
+    setSelectedPlan(planName);
+    if (detailsRef.current) {
+      setTimeout(() => {
+        detailsRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }, 100);
+    }
+  };
+
   return (
     <div className="bg-white py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl sm:text-center">
-          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Nos tarifs</h2>
-          <p className="mt-6 text-lg leading-8 text-gray-600">Sélectionnez l'offre qui vous convient le mieux</p>
+          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Choose a pricing plan</h2>
+          <p className="mt-6 text-lg leading-8 text-gray-600">Select your plan to see detailed pricing information.</p>
         </div>
         <div className="mt-16 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {plans.map((plan) => (
@@ -68,13 +73,13 @@ const PricingComponentClient: React.FC = () => {
               price={plan.price}
               features={plan.features}
               isSelected={selectedPlan === plan.name}
-              onSelect={() => setSelectedPlan(plan.name)}
+              onSelect={() => handlePlanSelect(plan.name)}
             />
           ))}
         </div>
-        <div className="mt-16 mx-auto max-w-2xl rounded-3xl ring-1 ring-gray-200 sm:mt-20">
+        <div ref={detailsRef} className="mt-16 mx-auto max-w-2xl rounded-3xl ring-1 ring-gray-200 sm:mt-20">
           <div className="p-8 sm:p-10">
-            <h3 className="text-2xl font-bold tracking-tight text-gray-900">{selectedPlan}</h3>
+            <h3 className="text-2xl font-bold tracking-tight text-gray-900">{selectedPlan} détail</h3>
             <p className="mt-6 text-base leading-7 text-gray-600">
               Plan pricing starts at {selectedPlan === 'Enterprise' ? 'a custom rate' : `CHF ${plans.find(p => p.name === selectedPlan)?.price}`}. 
               Select your audience size to calculate your price. The monthly email send limit for {selectedPlan} plans 
